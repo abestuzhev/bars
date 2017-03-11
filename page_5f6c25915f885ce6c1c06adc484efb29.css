@@ -1,0 +1,311 @@
+
+
+/* Start:/bitrix/templates/main/components/bitrix/news.list/spares_goods/style.css?14867306736123*/
+.unit-box {
+    height: 1%;
+    overflow: hidden;
+}
+.unit-image {
+    width: 51%;
+    float: left;
+}
+.unit-image-box {
+    background-color: #fff;
+    overflow: hidden;
+    height: 325px;
+}
+.unit-image-box > span {
+    display: table;
+    width: 100%;
+}
+.unit-image-box > span > span {
+    display: table-cell;
+    width: 100%;
+    height: 325px;
+    vertical-align: middle;
+    text-align: center;
+}
+.unit-image img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.spares-breadcrumbs-list .spares-breadcrumbs-list-item:not(:first-child):before {
+    content: "→";
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    padding-right: 8px;
+    font-size: 16px;
+    line-height: 15px;
+    color: #002649;
+    text-decoration: none;
+}
+.unit-title {
+    margin: 0 0 19px 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 4px 13px;
+    font-family: "Ubuntu", sans-serif;
+    background: #000;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+.unit-characteristics {
+    padding-left: 27px;
+    height: 252px;
+    overflow: hidden;
+}
+.unit-characteristics ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.unit-characteristics ul li {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    margin: 8px 0 0;
+    background: url(/bitrix/templates/main/components/bitrix/news.list/spares_goods/images/catalog_info_dotted.gif) 0 12px repeat-x;
+}
+.unit-characteristics ul li:first-child {
+    margin-top: 0;
+}
+.unit-characteristics ul li .name {
+    float: left;
+    background: #fff;
+    padding: 0 2px 0 0;
+}
+.unit-characteristics ul li .value {
+    float: right;
+    background: #fff;
+    padding: 0 0 0 2px;
+}
+.unit-info {
+    width: 49%;
+    float: right;
+}
+.unit-info-title {
+    font-size: 18px;
+    margin: 20px 0 17px 0;
+    padding: 0 0 16px 27px;
+    background: url(/bitrix/templates/main/components/bitrix/news.list/spares_goods/images/unit_sidebar_title_bg.png) 0 100% no-repeat;
+}
+.unit-spares-title {
+    margin: 34px 0 21px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.unit-spares ul,
+.unit-spares li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: none;
+}
+.unit-spares ul {
+    overflow: hidden;
+    height: 1%;
+    margin: 0 -7px;
+}
+.unit-spares ul li {
+    width: 33%;
+    display: inline-block;
+}
+.unit-spares ul .spares-row-container {
+    width: 100%;
+    display: inline-block;
+}
+.unit-spares ul .spares-row-container  .spares-row {
+    white-space: nowrap;
+}
+.unit-spares ul li a {
+    display: block;
+    padding: 0 15px;
+}
+.unit-spares ul li a .unit-spares-image {
+    display: block;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px #e4e4e4;
+    -moz-box-shadow: 0 2px #e4e4e4;
+    box-shadow: 0 2px #e4e4e4;
+    border: solid 1px #d9d9d9;
+    height: 183px;
+    overflow: hidden;
+    text-align: center;
+}
+.unit-spares ul li a .unit-spares-image img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.unit-spares ul li a .unit-spares-title {
+    display: block;
+    margin-top: 5px;
+    color: #42698A;
+    text-decoration: underline;
+    font-size: 16px;
+    white-space: normal;
+}
+.unit-spares ul li a:hover .unit-spares-title {
+    text-decoration: none;
+}
+
+.spares-breadcrumbs {
+    margin: 10px 0 16px 0;
+}
+.spares-breadcrumbs-list {
+    margin: 0;
+    padding: 20px 0;
+}
+.spares-breadcrumbs-list-item-title {
+    font-size: 17px;
+}
+
+.spares-breadcrumbs-list,
+.spares-breadcrumbs-list-item,
+.spares-breadcrumbs-list-item a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    *display: inline;
+}
+.spares-breadcrumbs-hr {
+    background-color: #d9d9d9;
+    border: none;
+    height: 1px;
+}
+.spares-item-detail {
+    background-color: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0 1px #e4e4e4;
+    -moz-box-shadow: 0 1px #e4e4e4;
+    box-shadow: 0 1px #e4e4e4;
+    border: solid 1px #d9d9d9;
+    margin-bottom: 20px;
+}
+.spares-item-detail .spares-breadcrumbs {
+    margin: 0;
+}
+.spares-breadcrumbs-list-item {
+    /*margin-left: 27px;*/
+    background: url(/bitrix/templates/motorus/images/breadcrumbs-bullet.png) left top no-repeat;
+    padding: 10px;
+}
+.spares-breadcrumbs-list-item.first-child,
+.spares-breadcrumbs-list-item:first-child {
+    margin-left: 0;
+    background: none;
+    padding-left: 0;
+}
+.spares-breadcrumbs-list .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 110%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    font-weight: normal;
+    transition: all 0.2s ease-in;
+    list-style: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.spares-breadcrumbs-list .dropdown li {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.spares-breadcrumbs-list .dropdown li a {
+    display: block;
+    padding: 10px;
+    background: none;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    transition: all 0.3s ease-out;
+}
+
+.spares-breadcrumbs-list .dropdown li i {
+    float: right;
+    color: inherit;
+}
+
+.spares-breadcrumbs-list .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.spares-breadcrumbs-list .dropdown li:last-of-type a {
+    border-radius: 0 0 7px 7px;
+    border: none;
+}
+
+/* Hover state */
+
+.spares-breadcrumbs-list .dropdown li:hover a {
+    background: #f3f8f8;
+}
+
+.spares-breadcrumbs-list .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+
+.spares-breadcrumbs-list .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;
+}
+
+.spares-breadcrumbs-list-item.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 15;
+    display: block;
+}
+.spares-breadcrumbs-list-item{
+    background: url("bitrix/templates/main/img/arrow-down.png") 100% 16px no-repeat !important;
+    padding-right: 15px;
+}
+/* End */
+/* /bitrix/templates/main/components/bitrix/news.list/spares_goods/style.css?14867306736123 */

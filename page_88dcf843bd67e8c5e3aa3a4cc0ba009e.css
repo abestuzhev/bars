@@ -1,0 +1,297 @@
+
+
+/* Start:/bitrix/templates/main/components/bitrix/catalog.section.list/spares_brands_new_items/style.css?14867306735592*/
+.spares-brands-list-column {
+    margin-left: 2%;
+    float: left;
+    width: 31%;
+}
+.spares-brands-list-column.first-child,
+.spares-brands-list-column:first-child {
+    padding-left: 0;
+}
+.spares-brands-list-item {
+    margin-top: 22px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 2px #e4e4e4;
+    -moz-box-shadow: 0 2px #e4e4e4;
+    box-shadow: 0 2px #e4e4e4;
+    border: solid 1px #d9d9d9;
+    width: 230px;
+}
+.spares-brands-list-item .item {
+    padding: 5px 5px;
+    overflow: hidden;
+    position: relative;
+    height: 230px;
+}
+.spares-brands-list-item .item-image {
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.spares-brands-list-item .item-image img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.spares-brands-list-item .item-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Ubuntu", sans-serif;
+    white-space: nowrap;
+    color: #000000;
+    padding-top: 20px;
+}
+.spares-brands-list-item a.item-read-more {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+.spares-brands-list-item .jspVerticalBar .jspDrag {
+    width: 10px;
+    background-color: rgb(246, 228, 94);
+    left: -5px;
+}
+.spares-brands-list-item .jspVerticalBar .jspTrack {
+    width: 2px;
+    background-color: #D6D6D6;
+}
+.spares-brands-list-item .search-panel {
+    display: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0 -1px rgba(226, 226, 226, 0.75), inset 0 1px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0 -1px rgba(226, 226, 226, 0.75), inset 0 1px rgba(255, 255, 255, 0.75);
+    box-shadow: 0 -1px rgba(226, 226, 226, 0.75), inset 0 1px rgba(255, 255, 255, 0.75);
+}
+.spares-brands-list-item .search-panel-quick-search {
+    padding: 5px 5px 5px 5px;
+}
+.spares-brands-list-item .search-panel-quick-search form {
+    text-align: center;
+}
+.spares-brands-list-item .search-panel-quick-search input {
+    margin: 0;
+    padding: 0 2%;
+    text-align: center;
+    color: #575757;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Ubuntu", sans-serif;
+    width: 84%;
+    height: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 1px #ffffff, inset 0 2px 3px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 1px #ffffff, inset 0 2px 3px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 1px #ffffff, inset 0 2px 3px rgba(0, 0, 0, 0.22);
+    border: solid 1px #e4e4e4;
+    background-image: -webkit-linear-gradient(bottom, #ffffff, #ededed 99%);
+    background-image: -moz-linear-gradient(bottom, #ffffff, #ededed 99%);
+    background-image: -o-linear-gradient(bottom, #ffffff, #ededed 99%);
+    background-image: -ms-linear-gradient(bottom, #ffffff, #ededed 99%);
+    background-image: linear-gradient(to top, #ffffff, #ededed 99%);
+}
+.spares-brands-list-item .search-panel-list {
+    padding: 0;
+    list-style: none;
+    margin: 0 5px 5px 5px;
+    max-height: 350px;
+}
+
+.search-panel-list .scroll-pane {
+    max-height: 350px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.spares-brands-list-item .search-panel-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.spares-brands-list-item .search-panel-list ul li {
+    margin-top: 20px;
+    background: none;
+}
+
+.spares-brands-list-item .search-panel-list ul li a {
+    cursor: pointer;
+    font-size: 15px;
+    color: #244F79;
+}
+
+.spares-brands-list-item .search-panel-list ul li a:hover {
+    color: #0D808A;
+}
+
+.spares-brands-list-item .search-panel-show-more {
+    padding: 0 22px 17px 22px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    display: none;
+}
+.spares-brands-list-item .search-panel-show-more a {
+    color: #0d80bb;
+    text-decoration: none;
+    border-bottom: 1px dashed #0d80bb;
+}
+.spares-brands-list-item .search-panel-show-more a:hover {
+    border-bottom: none;
+}
+.spares-brands-list-item .search-panel-close a {
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999px;
+    overflow: hidden;
+    display: block;
+    height: 9px;
+}
+
+.brands-list-column {
+    float: left;
+}
+.brands-list-column.first-child,
+.brands-list-column:first-child {
+    padding-left: 0;
+}
+.brands-list-item {
+    margin-top: 22px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 2px #e4e4e4;
+    -moz-box-shadow: 0 2px #e4e4e4;
+    box-shadow: 0 2px #e4e4e4;
+    border: solid 1px #d9d9d9;
+    width: 230px;
+    display: inline-block;
+}
+.brands-list-item .item {
+    padding: 20px 22px;
+    overflow: hidden;
+    position: relative;
+    height: 200px
+}
+.brands-list-item .item a {
+    text-decoration: none;
+    color: #000000;
+}
+.brands-list-item .item-image {
+    height: 104px;
+    overflow: hidden;
+    position: relative;
+}
+.brands-list-item .item-image img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+.brands-list-item .item-title {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 46px;
+}
+.brands-list-item a.item-read-more {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/main/components/primepix/tmpl/spares_blocks/style.css?14867306731160*/
+.brands-list-column {
+	float: left;
+}
+.brands-list-column.first-child,
+.brands-list-column:first-child {
+	padding-left: 0;
+}
+.brands-list-item {
+	margin-top: 22px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #fafafa;
+	-webkit-box-shadow: 0 2px #e4e4e4;
+	-moz-box-shadow: 0 2px #e4e4e4;
+	box-shadow: 0 2px #e4e4e4;
+	border: solid 1px #d9d9d9;
+	width: 230px;
+	display: inline-block;
+}
+.brands-list-item .item {
+	padding: 20px 22px;
+	overflow: hidden;
+	position: relative;
+	height: 200px
+}
+.brands-list-item .item a {
+	text-decoration: none;
+	color: #000000;
+}
+.brands-list-item .item-image {
+	height: 104px;
+	overflow: hidden;
+	position: relative;
+}
+.brands-list-item .item-image img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.brands-list-item .item-title {
+	text-align: center;
+	font-size: 18px;
+	line-height: 21px;
+	font-family: "Ubuntu", sans-serif;
+	padding-top: 46px;
+}
+.brands-list-item a.item-read-more {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+/* End */
+/* /bitrix/templates/main/components/bitrix/catalog.section.list/spares_brands_new_items/style.css?14867306735592 */
+/* /bitrix/templates/main/components/primepix/tmpl/spares_blocks/style.css?14867306731160 */
