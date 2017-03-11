@@ -321,8 +321,13 @@
   background: url('bitrix/templates/main/new-img/icon-arrow-right.png') 0 0 no-repeat;
 }
 
-.spares-card-properties_item:hover {
+.spares-card-properties_item:hover,
+.spares-card-properties_more:hover {
   background-color: #f2f6f7;
+}
+
+.spares-card-properties_more:hover {
+  text-decoration: underline;
 }
 
 .spares-card-properties:hover .spares-card_body {
@@ -359,8 +364,10 @@
   display: block;
   padding: 5px 0;
   text-decoration: none;
+  background-color: #fff;
 }
 
+.spares-card-properties_more:hover
 
 /*table-spares*/
 /*******************/
