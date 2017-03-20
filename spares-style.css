@@ -265,12 +265,17 @@
   display: block;
 }
 
-.catalog-category_title-boat {
-  padding-left: 31px;
+.catalog-category_title {
   position: relative;
 }
 
-.catalog-category_title-boat::before {
+.catalog-category_title img {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/*.catalog-category_title-boat::before {
   content: '';
   position: absolute;
   left: 0;
@@ -280,8 +285,7 @@
   background: url("bitrix/templates/main/new-img/icon-boat.png") 0 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-
-}
+}*/
 /*properties*/
 
 .spares-card-properties {
