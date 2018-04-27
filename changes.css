@@ -68,4 +68,8 @@
         width: 100%;
         position: static;
     }
+
+    .item-single-size__list {
+        height: auto;
+    }
 }
