@@ -1,2 +1,71 @@
 /*каталог 1-го уровня замена со строки 1671 в файле brands.html*/
 
+
+
+.item-single-info {
+    width: 200px;
+}
+
+.item-single-size {
+    margin-top: 18px;
+    position: absolute;
+    top: 218px;
+    left: 58%;
+    width: 245px;
+}
+
+.item-single-size__title {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.item-single-size__list {
+
+    height: 240px;
+    overflow: hidden;
+}
+
+.item-single-size__item {
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.item-single-size__price {
+    display: block;
+    color: #535353;
+    font-size: 12px;
+    font-weight: 700;
+}
+.item-single-size__price i {
+    font-style: normal;
+}
+
+.item-single-size__label {
+}
+.item-single-size__label input {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.item-single-size .simplebar-content {
+    padding-right: 10px !important;
+}
+.item-single-size .simplebar-scrollbar {
+    background-color: #f2c730;
+}
+
+@media (max-width: 1160px) and (min-width: 620px){
+    .item-single-size {
+        display: none;
+    }
+}
+
+@media (max-width: 620px){
+    .item-single-size {
+        width: 100%;
+        position: static;
+    }
+}
